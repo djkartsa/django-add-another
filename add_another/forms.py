@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.forms.models import modelform_factory
 from django.db.models.loading import get_models, get_apps
 

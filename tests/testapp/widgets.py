@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from add_another.widgets import PopUpBaseWidget
 from django.contrib.admin.widgets import FilteredSelectMultiple
 from django import forms
