@@ -1,8 +1,6 @@
-from django import forms
 from django.core.urlresolvers import reverse
 from django.template.loader import render_to_string
 from django.utils.translation import ugettext as _
-from django.contrib.admin.widgets import FilteredSelectMultiple
 
 
 class PopUpBaseWidget(object):
@@ -42,15 +40,3 @@ class PopUpBaseWidget(object):
         js = (
             'js/add_another.js',
         )
-
-
-class FilteredMultipleSelectWithPopUp(PopUpBaseWidget, FilteredSelectMultiple):
-    pass
-
-
-class MultipleSelectWithPopUp(PopUpBaseWidget, forms.SelectMultiple):
-    pass
-
-
-class SelectWithPopUp(PopUpBaseWidget, forms.Select):
-    pass
