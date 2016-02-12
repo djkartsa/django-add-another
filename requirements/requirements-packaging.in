@@ -1,0 +1,8 @@
+# Wheel for PyPI installs.
+wheel
+
+# Twine for secured PyPI uploads.
+twine
+
+# Transifex client for managing translation resources.
+transifex-client
