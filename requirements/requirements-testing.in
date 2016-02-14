@@ -1,7 +1,0 @@
-# PyTest for running the tests.
-pytest
-pytest-django
-pytest-cov
-
-# Integration testing.
-selenium

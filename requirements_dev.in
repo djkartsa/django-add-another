@@ -1,0 +1,27 @@
+# - TESTING -
+# PyTest for running the tests.
+pytest
+pytest-django
+pytest-cov
+
+# Integration testing.
+selenium
+
+# - PACKAGING -
+# Wheel for PyPI installs.
+wheel
+
+# Twine for secured PyPI uploads.
+twine
+
+# - DOCUMENTATION -
+# Sphinx for building documentation.
+sphinx
+
+# - CODE STYLE -
+# PEP8 code linting.
+flake8
+pep8
+
+# Imports sorting and linting.
+isort

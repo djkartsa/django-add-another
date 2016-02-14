@@ -1,6 +1,0 @@
-# PEP8 code linting.
-flake8
-pep8
-
-# Imports sorting and linting.
-isort
