@@ -13,3 +13,9 @@ docs/_build
 
 venv
 test.db
+
+# CI
+.tox/
+.cache/
+.coverage
+coverage.xml
