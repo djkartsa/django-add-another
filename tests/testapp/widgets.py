@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-from add_another.widgets import PopUpBaseWidget
-from django.contrib.admin.widgets import FilteredSelectMultiple
 from django import forms
+from django.contrib.admin.widgets import FilteredSelectMultiple
+
+from add_another.widgets import PopUpBaseWidget
 
 
 class FilteredMultipleSelectWithPopUp(PopUpBaseWidget, FilteredSelectMultiple):

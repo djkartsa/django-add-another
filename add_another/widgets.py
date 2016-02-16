@@ -35,7 +35,7 @@ class PopUpBaseWidget(object):
         popupplus = render_to_string(self.template, {'field': name,
                                                      'add_another_url': self.add_another_url,
                                                      'title_text': self.title_text})
-        return popupplus+html
+        return popupplus + html
 
     class Media:
         js = (

@@ -4,8 +4,8 @@ from string import capitalize
 from django import forms
 from django.core.exceptions import ImproperlyConfigured
 from django.core.urlresolvers import reverse_lazy
+from django.http import Http404, HttpResponse
 from django.shortcuts import render
-from django.http import HttpResponse, Http404
 from django.utils.html import escape
 
 from forms import get_model_form, normalize_model_name

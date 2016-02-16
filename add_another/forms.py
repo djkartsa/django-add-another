@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
+from django.db.models.loading import get_apps, get_models
 from django.forms.models import modelform_factory
-from django.db.models.loading import get_models, get_apps
 
 
 def normalize_model_name(model_name):
