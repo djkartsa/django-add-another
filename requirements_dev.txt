@@ -18,7 +18,7 @@ pep8==1.7.0
 pkginfo==1.2.1            # via twine
 py==1.4.31                # via pytest
 pyflakes==1.0.0           # via flake8
-Pygments==2.1             # via sphinx
+Pygments==2.1.1           # via sphinx
 pytest-cov==2.2.1
 pytest-django==2.9.1
 pytest==2.8.7
