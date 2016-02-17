@@ -6,7 +6,7 @@
 
 ## Docs
 
-[Read The Docs](https://readthedocs.org/projects/django-add-another/)
+[Read The Docs](http://django-add-another.rtfd.org/)
 
 ## Source
 
